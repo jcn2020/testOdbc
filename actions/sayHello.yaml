@@ -4,7 +4,7 @@ description: "sayHello description"
 enabled: true
 
 runner_type: python-script
-entry_point: ./workflows/sayHello/sayHello.py 
+entry_point: workflows/sayHello/sayHello.py 
 
 parameters: 
 
