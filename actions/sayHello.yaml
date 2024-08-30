@@ -6,7 +6,6 @@ enabled: true
 runner_type: python-script
 entry_point: ./workflows/sayHello/sayHello.py 
 
-enabled: true 
 parameters: 
 
   debug:
