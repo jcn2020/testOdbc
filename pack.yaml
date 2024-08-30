@@ -1,0 +1,13 @@
+--- 
+ref: test_odbc_automation
+name: test_odbc_automation
+description: simple test
+keywords:
+  - "pyodbc"
+  - "unixodbc"
+  - "stackstorm"
+
+version: 01.01.01
+author: me
+email: me@email.com
+fgid: 02345

@@ -1,0 +1,22 @@
+---
+name: sayHello
+description: "sayHello description"
+enabled: true
+
+runner_type: python-script
+entry_point: ./workflows/sayHello/sayHello.py 
+
+enabled: true 
+parameters: 
+
+  debug:
+    type: boolean
+    default: true
+
+  timeout:
+    type: integer
+    default: 300 
+
+  message:
+    type: string
+    default: "Hello SayHello"
