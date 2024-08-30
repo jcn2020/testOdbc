@@ -9,7 +9,7 @@ from datetime import datetime
 import json
 import ssl
 import zlib
-#import pyodbc
+import pyodbc
 from nats.aio.client import Client as NATS
 from st2common.runners.base_action import Action
 
